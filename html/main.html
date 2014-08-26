@@ -1,0 +1,220 @@
+<!-- Version 1.7.4 -->
+<!-- 수정할 때 마다 버전이 0.1씩 올라갑니닷 -->
+
+<!doctype HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/styles.css">
+        <meta charset="UTF-8" http-equiv="Content-Type" content="text/html">
+        <title>마음을 울리는 광고 - 감성</title>
+
+        <style>
+            .JiSlider
+            {	
+                width: 90%;
+                height: 412px;
+                left: 50%;
+                margin-left: -45%;
+                margin-top: -50px
+            }
+        </style>
+
+    </head>
+    <body>
+        <div id="main">
+
+            <!-- 로그인 부분 시작 -->
+            <div id="nav_login" mouseover="login_hover()">
+
+                <!-- 실질적인 로그인 부분 시작 -->
+                <div id="login_box">
+                    <form action="" method="post">
+                        <input name="username" id="id" type="text" placeholder="ID">
+                        <br><br>
+
+                        <input name="password" id="password" type="password" placeholder="PASSWORD" reset>
+
+                        <br><br><br>
+
+                        <input id="login_btn" type="submit" value="LOGIN">
+
+                        <br><br><br>
+
+                        <a href="signup.html"><div id="signup">SIGN UP</div></a>
+
+                    </form>
+
+                    <!-- 실질적인 로그인 부분 끝 -->
+
+                </div>
+            </div>
+
+            <!-- 로그인 부분 끝 -->
+
+            <!-- 좌측 탭 매뉴 시작 -->
+
+            <div id="nav">
+                <div id="logo">
+                    <a href="main.html">
+                        마음을<br>
+                        울리는<br>
+                        광고
+                    </a>
+                </div>
+                <h6>당신을 응원하는 30초의 힘</h6>
+
+                <div id="navcat">
+                    <a href="list.html#Newtab">
+                        <div id="Newtab" class="navbox" OnClick="Newtab">
+                            <img src="../img/new.png" height="35px"/>
+                            <input type="radio" name="chk_info" value="new">
+                            <h1>10월 최신 광고</h1>
+                        </div>
+                    </a>
+                    <a href="list.html">
+                        <div id="Recenttab" class="navbox">
+                            <img src="../img/recent.png" height="35px">
+                            <input type="radio" name="chk_info" value="recent">
+                            <h1>최근 인기있는 광고</h1>
+                        </div>
+                    </a>
+                    <a href="list.html">
+                        <div id="Besttab" class="navbox">
+                            <img src="../img/best.png" height="35px">
+                            <input type="radio" name="chk_info" value="best">
+                            <h1>역대 베스트 광고</h1>
+                        </div>
+                    </a>
+                    <a href="mystory.html">
+                        <div id="Mystorytab" class="navbox">
+                            <img src="../img/story.png" height="35px">
+                            <h1>나의 사연</h1>
+                        </div>
+                    </a>
+                    <a href="vote.html">
+                        <div id="Votetab" class="navbox">
+                            <img src="../img/vote.png" height="35px">
+                            <h1>광고 투표하기</h1>
+                        </div>
+                    </a>
+                    <a href="search.html">
+                        <div id="Searchtab" class="navbox">
+                            <img src="../img/nav_search.png" height="35px">
+                            <h1>Smart Search</h1>
+                        </div>
+                    </a>
+                </div>
+                <div id="leadlogin" OnClick="login()">로그인
+                </div>
+            </div>
+            <!-- 좌측 탭 매뉴 끝 -->
+
+            <!-- 메인 화면 시작 -->
+            <div id="main_box" OnClick="main()">
+
+                <div id="top_navbar"></div>
+
+                <!-- 검색창 시작 -->
+                <div id="search" onmouseover="search()">
+                    <div id="search_icon">
+                        <img src="../img/search.png" width="30px">
+                        <img id="searchange" src="../img/search_icon.png" width="30px">
+                    </div>
+
+                    <search>
+                        <div id="search_div">
+                        </div>
+                        <div id="search_left"></div>
+                        <div id="search_right"></div>
+                    </search>
+                    <form onsubmit="return submit_search()" auto>
+                        <input name="search" id="search_box" type="text" onfocusout="Search_Over()" >
+                    </form>
+                </div>
+                <!-- 검색창 종료 -->
+
+                <div id="main_contents_box">
+
+                    <div class="JiSlider">
+                        <ul>
+                            <li>
+                                <a href="main.html"><img src="../img/banner1.png"></a>
+                            </li>
+                            <li>
+                                <a href="main.html"><img src="../img/banner2.png"></a>
+                            </li>
+                            <li>
+                                <a href="main.html"><img src="../img/banner3.png"></a>
+                            </li>
+                            <li>
+                                <a href="player.html"><img src="../img/banner4.png"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <script>
+                        window.onload = function () {
+                            JiSlider(800, 5000, 'down', 'easeOutExpo', 'on')
+                        }
+                    </script>
+
+                    <div id="contents">
+                        <div id="main_customize">맞춤 광고
+                            <div id="LargeUcc">
+                                큰 동영상
+                            </div>
+                            <div id="LargeUcc_ex">
+                                위에 동영상 설명입니다.
+                            </div>
+                            <div id="smallUcc1">동영상1</div>
+                            <div id="smallUcc_ex1">동영상1 설명입니다.</div>
+                            <div id="smallUcc2">동영상2</div>
+                            <div id="smallUcc_ex2">동영상2 설명입니다.</div>
+                            <div id="smallUcc3">동영상3</div>
+                            <div id="smallUcc_ex3">동영상3 설명입니다.</div>
+                        </div>
+
+                        <div id="main_new"> <p>최신광고</p>
+                            <div class="Ucc">최신광고1</div>
+                            <div class="Ucc">최신광고2</div>
+                            <div class="Ucc">최신광고3</div>
+                            <div class="Ucc">최신광고4</div>
+                            <div class="Ucc">최신광고5</div>                        
+                        </div>
+
+                        <div id="main_recent"> <p>최근 인기 광고</p>
+                            <div class="Ucc">인기광고1</div>
+                            <div class="Ucc">인기광고2</div>
+                            <div class="Ucc">인기광고3</div>
+                            <div class="Ucc">인기광고4</div>
+                            <div class="Ucc">인기광고5</div>
+                        </div>
+
+                        <div id="main_best"> <p>베스트 사연</p>
+                            <div class="Ucc">베스트광고1</div>
+                            <div class="Ucc">베스트광고2</div>
+                            <div class="Ucc">베스트광고3</div>
+                            <div class="Ucc">베스트광고4</div>
+                            <div class="Ucc">베스트광고5</div>
+                        </div>
+                    </div>
+
+                    <!-- <div id="main_search">
+<div id="main_text">Smart Search</div>
+<img id="main_search_img" src="../img/search_icon.png">
+</div> -->
+
+                </div>
+            </div>
+
+            <div id="main_box2">
+            </div>
+
+        </div>
+        <script src="../js/imgslider.js"></script>
+        <script src="../js/jslider.js"></script>
+        <script src="../js/JiSlider-0.4.js"></script>
+        <script type="application/javascript" src="../js/main.js"></script>
+    </body>
+    <footer id="footer">Copyrightⓒ 2014 aD$Moved. All rights reserved.</footer>
+</html>
