@@ -33,7 +33,7 @@
         left: 50%;
         margin-left: -600px;
     }
-    
+
     #mystory_box {
         padding-left: 5px;
     }
@@ -46,7 +46,7 @@
         left: 50%;
         margin-left: -450px;
     }
-    
+
     #mystory_box {
         padding-left: 5px;
     }
@@ -60,7 +60,7 @@
         left: 50%;
         margin-left: -345px;
     }
-    
+
     #mystory_box {
         padding-left: 45px;
     }
@@ -68,7 +68,7 @@
 
 @media screen and (max-width: 955px){
     #mystory_contents_box{
-        
+
     }
 }
 

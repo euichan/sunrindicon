@@ -72,7 +72,7 @@ text-align: center;
 width: 60px;
 top: 50%;
 margin-top: 13px;
-    
+
 }
 
 .profile {
@@ -113,7 +113,7 @@ background-color: #fff;
 .right {
     position: relative;
     float: right;
- 
+
 }
 
 #share {
@@ -143,7 +143,7 @@ background-color: #fff;
     opacity: 1;
     -webkit-transition: 0.3s;
 }
-    
+
 #facebook_icon {
     width: 25px;
     vertical-align: middle;

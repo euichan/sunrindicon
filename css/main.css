@@ -305,7 +305,7 @@ CENTER {
     text-align: center;
 }
 
-#main_new {    
+#main_new {
     margin-top: 20px;
     position: relative;
     float: left;
@@ -373,7 +373,7 @@ CENTER {
 }
 
 html {
-    font-family: 'AppleSDGothicNeo-UltraLight', sans-serif; 
+    font-family: 'AppleSDGothicNeo-UltraLight', sans-serif;
 }
 
 #LargeUcc {
@@ -585,7 +585,7 @@ search {
 }
 
 .JiSlider
-{	
+{
     width: 90%;
     height: 412px;
     left: 50%;
@@ -607,17 +607,17 @@ search {
     #nav{
         left: -262px;
     }
-    
+
     #footer{
         left: -262px;
     }
-    
+
     #main_box{
         left: 0px;
         width: 100%;
         min-width: 300px;
     }
-    
+
     #main_contents_box{
         left: 50%;
     }
