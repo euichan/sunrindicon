@@ -9,7 +9,7 @@ stay_time = arguments[1]
 control = arguments[2] || 'none'
 easeing = arguments[3] || 'swing'
 preview = arguments[4] || 'off'
-JiSlider_width = $('.JiSlider').width()	
+JiSlider_width = $('.JiSlider').width()
 JiSlider_height = $('.JiSlider').height()
 var slide_length = $('.JiSlider ul li').length
 
@@ -79,10 +79,10 @@ $(this).attr('src', JiSlider_right_button)
 /****** control button ******/
 var JiSlider_control_position = {'none': {}, 'up': {'left': 0, 'right': 0, 'top': '25px'}, 'down': {'left': 0, 'right': 0, 'bottom': '25px'}}
 if (control != 'none') {
-var buttons = ''	
+var buttons = ''
 for (var i = 0; i < slide_length; i++)
 buttons += '<div class="JiSlider_control_button" data-index="' + (i + 1) + '"><img src="../img/control_btn.png" /></div>'
-$('.JiSlider').append('<div class="JiSlider_control">' + buttons + '</div>')		
+$('.JiSlider').append('<div class="JiSlider_control">' + buttons + '</div>')
 $('.JiSlider_control_button').css({
 float: 'left',
 width: '30px',
@@ -118,7 +118,7 @@ $('.JiSlider_preview_wrap[data-index!=' + index + ']').removeClass('JiSlider_on'
 
 function indexCheck (gIndex) {
 if (gIndex > slide_length) {
-animate(time, easeing)			
+animate(time, easeing)
 index = 1
 animate(0, easeing)
 } else if (gIndex < 1) {
@@ -140,7 +140,7 @@ click = click_time
 index = index_save
 click = click_time
 }
-} 
+}
 
 /****** timer reset ******/
 function reset () {
