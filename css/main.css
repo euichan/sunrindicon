@@ -596,6 +596,7 @@ search {
     color: rgba(255, 255, 255, 0.5);
 }
 
+/*
 @media screen and (min-width: 1520px){
     #main_contents_box{
         left: 50%;
@@ -622,7 +623,16 @@ search {
         left: 50%;
     }
 }
+*/
 
 .navbox:hover {
     background-color: rgba(255,255,255,0.3);
+}
+
+.nav_Highlight {
+    color: #000;
+}
+
+#Searchtab {
+    background-color: white;
 }
