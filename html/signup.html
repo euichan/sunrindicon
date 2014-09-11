@@ -1,0 +1,35 @@
+<!doctype HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/styles.css">
+        <meta charset="UTF-8" http-equiv="Content-Type" content="text/html">
+        <title>마음을 울리는 광고</title>
+    </head>
+    <body>
+
+        <!-- 좌측 상단 로고 시작 -->
+        <a href="main.html">
+            <div id="logo">
+                마음을<br>
+                울리는<br>
+                광고
+            </div>
+        </a>
+        <!-- 좌측 상단 로고 끝 -->
+
+        <!-- 회원가입 부분 시작 -->
+        <div id="window">
+            <div id="window_box">SIGN UP<br><br>
+                <form action="./login.php" method="post">
+                    <input name="username" id="signup_text" type="text" placeholder="  ID"><br><br>
+                    <input name="password" id="signup_text" type="password" placeholder="  PASSWORD"><br><br>
+                    <input name="nickname" id="signup_text" type="text" placeholder="  NICKNAME"><br><br>
+                    <input id="signup_btn" type="submit" value="CREATE" onclick = 'this.form.action="./join.php";'>
+                </form>
+            </div>
+        </div>
+        <!-- 회원가입 부분 끝 -->
+        <script type="application/javascript" src="../js/main.js"></script>
+    </body>
+</html>

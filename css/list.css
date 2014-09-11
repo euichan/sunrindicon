@@ -1,0 +1,137 @@
+
+
+
+
+
+#listMenu {
+    position: relative;
+    top:10%;
+    height: 100%;
+    z-index: -10;
+}
+
+#highRank {
+    position: relative;
+    top: 10px;
+    left: 3%;
+    width: 94%;
+    height: 290px;
+}
+
+.uccList {
+    position: relative;
+    border: solid 1px #53585F;
+    left: 1%;
+    top: 4px;
+    margin: 1%;
+    width: 30%;
+    height: 160px;
+    display: inline-block;
+}
+
+.uccList_ex {
+    position: relative;
+    border: solid 1px #53585F;
+    left: 1%;
+    margin: 1%;
+    width: 30%;
+    height: 65px;
+    display: inline-block;
+}
+
+#list_ex {
+    position: relative;
+    height: 25px;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#listName {
+    position: relative;
+    top: 0px;
+    left: 85px;
+    color: #53585F;
+}
+
+
+
+
+#list {
+    position: relative;
+    left: 3%;
+    top: 50px;
+    width: 92%;
+}
+
+
+.ucc_1 {
+    position: relative;
+    left: 1%;
+    width: 22%;
+    height: 120px;
+    margin: 1%;
+    border: solid 1px #53585F;
+    display: inline-block;
+}
+
+#list_box {
+    position: fixed;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-top: 0px;
+    width: -webkit-calc(100% - 262px);
+    height: 100%;
+    left: 262px;
+    top: 0px;
+    background-color: #fff;
+    -webkit-transition: 0.5s cubic-bezier(0.3, 1.5, 0.1, 1.1);
+    min-width: 800px;
+    z-index: -1000;
+}
+
+.ucc_2 {
+    position: relative;
+    left: 1%;
+    width: 22%;
+    height: 120px;
+    margin: 1%;
+    border: solid 1px #53585F;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+.radio {
+    z-index: 1001;
+    color: black;
+}
+
+
+
+#list_contents_box {
+    position: relative;
+    width: 80%;
+    height: 900px;
+    color: #53585F;
+    font-size: 1.6em;
+    font-family: 'AppleSDGothicNeo-UltraLight', sans-serif;
+    line-height: 1.5em;
+    z-index: -10;
+    background-color: #fff;
+    top: 50px;
+    left: 50%;
+    margin-left: -40%;
+    box-shadow: 0px 0px 10px 1px #bcbcbc;
+}
+
+#clickedMenu {
+    position: relative;
+    font-size: 2em;
+    padding-bottom: 20px;
+    border-bottom: solid 2px gray;
+}
