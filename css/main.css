@@ -24,7 +24,7 @@ body{
     background-color: rgba(0, 0, 0, 0.3);
     -webkit-transition: 0.5s cubic-bezier(0.3, 1.5, 0.1, 1.1);
     background-color: rgb(92, 111, 129);
-    z-index: auto;
+    z-index: 999;
 }
 
 .nav_logo {
@@ -75,8 +75,8 @@ h1 {
 #navcat {
     font-family: 'AppleSDGothicNeo-UltraLight', sans-serif;
     padding: 10px 0;
-    border-top: solid 2px white;
-    border-bottom: solid 2px white;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
 }
 
 
@@ -132,7 +132,7 @@ a {
     height: 100%;
     left: 262px;
     top: 0px;
-    -webkit-transition: 0.5s cubic-bezier(0.3, 1.5, 0.1, 1.1);
+    -webkit-transition: 0.5s ease-in-out;
     min-width: 700px;
 }
 
@@ -363,6 +363,7 @@ CENTER {
     position: absolute;
     padding-bottom: 50px;
     width: 95%;
+    height: auto;
     max-width: 1200px;
     z-index: -2;
     background-color: #fff;
@@ -626,3 +627,7 @@ search {
 .navbox:hover {
     background-color: rgba(255,255,255,0.3);
 }
+
+
+
+

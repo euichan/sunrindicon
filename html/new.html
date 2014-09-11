@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="../css/main.css">
         <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/list.css">
         <meta charset="UTF-8" http-equiv="Content-Type" content="text/html">
         <title>마음을 울리는 광고 - 감성</title>
 
@@ -62,21 +63,21 @@
                 <h6>당신을 응원하는 30초의 힘</h6>
 
                 <div id="navcat">
-                    <a href="list.html#Newtab">
+                    <a href="new.html">
                         <div id="Newtab" class="navbox" OnClick="Newtab">
                             <img src="../img/new.png" height="35px"/>
                             <input type="radio" name="chk_info" value="new">
                             <h1>10월 최신 광고</h1>
                         </div>
                     </a>
-                    <a href="list.html">
+                    <a href="recent.html">
                         <div id="Recenttab" class="navbox">
                             <img src="../img/recent.png" height="35px">
                             <input type="radio" name="chk_info" value="recent">
                             <h1>최근 인기있는 광고</h1>
                         </div>
                     </a>
-                    <a href="list.html">
+                    <a href="best.html">
                         <div id="Besttab" class="navbox">
                             <img src="../img/best.png" height="35px">
                             <input type="radio" name="chk_info" value="best">
@@ -132,79 +133,37 @@
                 <!-- 검색창 종료 -->
 
                 <div id="main_contents_box">
-
-                    <div class="JiSlider">
-                        <ul>
-                            <li>
-                                <a href="main.html"><img src="../img/banner1.png"></a>
-                            </li>
-                            <li>
-                                <a href="main.html"><img src="../img/banner2.png"></a>
-                            </li>
-                            <li>
-                                <a href="main.html"><img src="../img/banner3.png"></a>
-                            </li>
-                            <li>
-                                <a href="player.html"><img src="../img/banner4.png"></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <script>
-                        window.onload = function () {
-                            JiSlider(800, 5000, 'down', 'easeOutExpo', 'on')
-                        }
-                    </script>
-
-                    <div id="contents">
-                        <div id="main_customize">맞춤 광고
-                            <div id="LargeUcc">
-                                큰 동영상
-                            </div>
-                            <div id="LargeUcc_ex">
-                                위에 동영상 설명입니다.
-                            </div>
-                            <div id="smallUcc1">동영상1</div>
-                            <div id="smallUcc_ex1">동영상1 설명입니다.</div>
-                            <div id="smallUcc2">동영상2</div>
-                            <div id="smallUcc_ex2">동영상2 설명입니다.</div>
-                            <div id="smallUcc3">동영상3</div>
-                            <div id="smallUcc_ex3">동영상3 설명입니다.</div>
-                        </div>
-
-                        <div id="main_new"> <p>최신광고</p>
-                            <div class="Ucc">최신광고1</div>
-                            <div class="Ucc">최신광고2</div>
-                            <div class="Ucc">최신광고3</div>
-                            <div class="Ucc">최신광고4</div>
-                            <div class="Ucc">최신광고5</div>
-                        </div>
-
-                        <div id="main_recent"> <p>최근 인기 광고</p>
-                            <div class="Ucc">인기광고1</div>
-                            <div class="Ucc">인기광고2</div>
-                            <div class="Ucc">인기광고3</div>
-                            <div class="Ucc">인기광고4</div>
-                            <div class="Ucc">인기광고5</div>
-                        </div>
-
-                        <div id="main_best"> <p>베스트 사연</p>
-                            <div class="Ucc">베스트광고1</div>
-                            <div class="Ucc">베스트광고2</div>
-                            <div class="Ucc">베스트광고3</div>
-                            <div class="Ucc">베스트광고4</div>
-                            <div class="Ucc">베스트광고5</div>
-                        </div>
+                    <div id="clickedMenu">10월 최신 광고</div>
+                    <div id="listName">당신을 기다리는 새로운 광고.</div>
+                    <div id="highRank">
+                        <div id="list_ex"></div>
+                        <div class="uccList"></div>
+                        <div class="uccList"></div>
+                        <div class="uccList"></div>
+                        <div class="uccList_ex"></div>
+                        <div class="uccList_ex"></div>
+                        <div class="uccList_ex"></div>
                     </div>
 
-                    <!-- <div id="main_search">
-<div id="main_text">Smart Search</div>
-<img id="main_search_img" src="../img/search_icon.png">
-</div> -->
+                    <br>
 
+                    <!--나머지 동영상-->
+                    <div id="list">
+                        <div>
+                            <div class="ucc_1"></div>
+                            <div class="ucc_1"></div>
+                            <div class="ucc_1"></div>
+                            <div class="ucc_1"></div>
+                        </div>
+                        <div>
+                            <div class="ucc_2"></div>
+                            <div class="ucc_2"></div>
+                            <div class="ucc_2"></div>
+                            <div class="ucc_2"></div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-
-            <div id="main_box2">
+                
             </div>
 
         </div>

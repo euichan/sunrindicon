@@ -1,12 +1,23 @@
 <!doctype HTML>
 <html>
     <head>
-        <link rel="stylesheet" href="../css/list.css">
         <link rel="stylesheet" href="../css/main.css">
         <link rel="stylesheet" href="../css/styles.css">
         <link rel="stylesheet" href="../css/vote.css">
         <meta charset="UTF-8" http-equiv="Content-Type" content="text/html">
-        <title>마음을 울리는 광고</title>
+        <title>마음을 울리는 광고 - 감성</title>
+
+        <style>
+            .JiSlider
+            {
+                width: 90%;
+                height: 412px;
+                left: 50%;
+                margin-left: -45%;
+                margin-top: -50px
+            }
+        </style>
+
     </head>
     <body>
         <div id="main">
@@ -17,10 +28,10 @@
                 <!-- 실질적인 로그인 부분 시작 -->
                 <div id="login_box">
                     <form action="" method="post">
-                        <input name="username" id="id" type="text" placeholder="  ID">
+                        <input name="username" id="id" type="text" placeholder="ID">
                         <br><br>
 
-                        <input name="password" id="password" type="password" placeholder="  PASSWORD" reset>
+                        <input name="password" id="password" type="password" placeholder="PASSWORD" reset>
 
                         <br><br><br>
 
@@ -52,21 +63,21 @@
                 <h6>당신을 응원하는 30초의 힘</h6>
 
                 <div id="navcat">
-                    <a href="list.html#Newtab">
+                    <a href="new.html">
                         <div id="Newtab" class="navbox" OnClick="Newtab">
                             <img src="../img/new.png" height="35px"/>
                             <input type="radio" name="chk_info" value="new">
                             <h1>10월 최신 광고</h1>
                         </div>
                     </a>
-                    <a href="list.html">
+                    <a href="recent.html">
                         <div id="Recenttab" class="navbox">
                             <img src="../img/recent.png" height="35px">
                             <input type="radio" name="chk_info" value="recent">
                             <h1>최근 인기있는 광고</h1>
                         </div>
                     </a>
-                    <a href="list.html">
+                    <a href="best.html">
                         <div id="Besttab" class="navbox">
                             <img src="../img/best.png" height="35px">
                             <input type="radio" name="chk_info" value="best">
@@ -97,12 +108,10 @@
             </div>
             <!-- 좌측 탭 매뉴 끝 -->
 
-            <div id="vote_box" OnClick="main()">
+            <!-- 메인 화면 시작 -->
+            <div id="main_box" OnClick="main()">
 
-                <!--선택한 메뉴 제목-->
-
-                <!-- 콘텐츠 부분 시작 -->
-                <div id="top_navbar" class="top_navbar"></div>
+                <div id="top_navbar"></div>
 
                 <!-- 검색창 시작 -->
                 <div id="search" onmouseover="search()">
@@ -123,16 +132,15 @@
                 </div>
                 <!-- 검색창 종료 -->
 
-                <div id=vote_contents_box>
-
+                <div id="main_contents_box">
                     <div id="listMenu">
                         <!--동영상 Top3-->
                         <div id="clickedMenu">광고 투표하기</div>
-                        <div id="listName">여러분의 마음을 울린 광고를 투표해주세요</div>
+                        <div id="listName">마음을 울리는 광고, 여러분이 만들어갑니다.</div>
 
 
                         <div id="votecat">
-                            다음 동영상 중 가장 마음을 울린 광고는 무엇입니까?
+                            당신의 마음을 울린 광고는 무엇인가요?
                         </div>
 
 
@@ -164,15 +172,15 @@
                             <input type="submit" id="votebtn" name="votebtn" value="투표하기">
                         </div>
                     </div>
-
-
                 </div>
+
             </div>
+
         </div>
-
-
-        <script src="../js/player.js"></script>
-        <script src="../js/main.js"></script>
+        <script src="../js/imgslider.js"></script>
+        <script src="../js/jslider.js"></script>
+        <script src="../js/JiSlider-0.4.js"></script>
+        <script type="application/javascript" src="../js/main.js"></script>
     </body>
     <footer id="footer">Copyrightⓒ 2014 aD$Moved. All rights reserved.</footer>
 </html>

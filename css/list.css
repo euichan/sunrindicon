@@ -47,12 +47,7 @@
     margin-bottom: 10px;
 }
 
-#listName {
-    position: relative;
-    top: 0px;
-    left: 85px;
-    color: #53585F;
-}
+
 
 
 
@@ -129,9 +124,4 @@
     box-shadow: 0px 0px 10px 1px #bcbcbc;
 }
 
-#clickedMenu {
-    position: relative;
-    font-size: 2em;
-    padding-bottom: 20px;
-    border-bottom: solid 2px gray;
-}
+
