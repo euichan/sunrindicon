@@ -1,0 +1,100 @@
+#searchresult_box {
+    position: fixed;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-top: 0px;
+    width: -webkit-calc(100% - 262px);
+    height: 100%;
+    left: 262px;
+    top: 0px;
+    -webkit-transition: 0.5s cubic-bezier(0.3, 1.5, 0.1, 1.1);
+    min-width: 700px;
+}
+
+#namecat {
+    position: relative;
+    top: 15px;
+    height: 110px;
+    color: #53585F;
+    padding-left: 80px;
+    border-bottom: solid 1px #dedede;
+}
+
+#searchname {
+    font-size: 40px;
+}
+
+#ucc_list {
+    position: relative;
+    top: 25px;
+    left: 30px;
+    height: 50px;
+    color: #53585F;
+    font-size: 20px;
+}
+
+#keywordsearch {
+    width: 25px;
+    vertical-align: middle;
+}
+
+#ucclist {
+    position: relative;
+    top: 50px;
+    left: 5%;
+}
+
+
+#ucc {
+    position: relative;
+    width: 23%;
+    height: 150px;
+    margin-right: 1.5%;
+    margin-bottom: 20px;
+    border: solid 1px #53585F;
+    display: inline-block;
+}
+
+#ucc2 {
+    position: relative;
+    width: 22%;
+    height: 150px;
+    margin-right: 1.5%;
+    margin-bottom: 20px;
+    border: solid 1px #53585F;
+    display: inline-block;
+}
+
+#ucc_ex {
+    position: relative;
+    width: 18%;
+    height: 150px;
+    margin-right: 3%;
+    margin-bottom: 20px;
+    border: solid 1px #53585F;
+    display: inline-block;
+}
+
+.keyword {
+    font-weight: bold;
+}
+
+#search_list_box {
+    position: absolute;
+    padding-bottom: 50px;
+    width: 95%;
+    max-width: 1200px;
+    z-index: -2;
+    background-color: #fff;
+    top: 60px;
+    left: 50%;
+    margin-left: -47.5%;
+    box-shadow: 0px 0px 10px 1px #bcbcbc;
+}
+
+#result {
+    position: relative;
+    font-size: 3em;
+    padding-bottom: 20px;
+    border-bottom: solid 2px gray;
+}
