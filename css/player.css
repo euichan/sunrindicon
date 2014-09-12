@@ -121,6 +121,7 @@ background-color: #fff;
     font-size: 0.8em;
     opacity: 1;
     -webkit-transition: 0.3s;
+    cursor: pointer;
 }
 
 #like {
@@ -135,6 +136,7 @@ background-color: #fff;
     font-size: 0.8em;
     opacity: 1;
     -webkit-transition: 0.3s;
+    cursor: pointer;
 }
 
 #facebook_icon {

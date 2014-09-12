@@ -1,35 +1,35 @@
 <!doctype HTML>
 <html>
     <head>
+        <link rel="stylesheet" href="../css/main.css">
         <link rel="stylesheet" href="../css/styles.css">
-        <link rel="stylesheet" href="../css/signup.css">
         <meta charset="UTF-8" http-equiv="Content-Type" content="text/html">
         <title>마음을 울리는 광고</title>
     </head>
-    <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
-        <div id="signup_box1">
-            <div id="signup_text1">
-                환영합니다!
+    <body>
+
+        <!-- 좌측 상단 로고 시작 -->
+        <a href="main.html">
+            <div id="logo">
+                마음을<br>
+                울리는<br>
+                광고
             </div>
-            <img id="signup_img1" src="../img/signup_1.png" width="700px">
-            <div id="signup_btn">
-                <img onclick="signup_next1()" id="sighnup_next" src="../img/right_btn.png" width="50px">
+        </a>
+        <!-- 좌측 상단 로고 끝 -->
+
+        <!-- 회원가입 부분 시작 -->
+        <div id="window">
+            <div id="window_box">SIGN UP<br><br>
+                <form action="./login.php" method="post">
+                    <input name="username" id="signup_text" type="text" placeholder="  ID"><br><br>
+                    <input name="password" id="signup_text" type="password" placeholder="  PASSWORD"><br><br>
+                    <input name="nickname" id="signup_text" type="text" placeholder="  NICKNAME"><br><br>
+                    <input id="signup_btn" type="submit" value="CREATE" onclick = 'this.form.action="./join.php";'>
+                </form>
             </div>
         </div>
-
-        <div id="signup_box2">
-            <div id="signup_text2">
-                마음을 울리는
-            </div>
-            <img id="signup_img2" src="../img/signup_2.png" width="600px">
-            <div id="signup_contents2">
-                이제는 광고가<br>‘또 하나의 콘텐츠’가 되어가고 있습니다.<br>당신의 마음을 울리는 다양한 감성광고를<br>손쉽게 감상하세요.
-            </div>
-            <div id="signup_btn">
-                <img onclick="signup_next1()" id="sighnup_next" src="../img/right_btn.png" width="50px">
-            </div>
-        </div>
-
-        <script src="../js/signup.js"></script>
+        <!-- 회원가입 부분 끝 -->
+        <script type="application/javascript" src="../js/main.js"></script>
     </body>
 </html>
