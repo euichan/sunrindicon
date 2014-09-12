@@ -29,6 +29,7 @@ src: local('AppleSDGothicNeo-Thin'), url('../font/AppleSDGothicNeo-Thin.otf') fo
     -webkit-animation: showAll 1s;
 }
 body {
+    background-color: #f1f1f1;
     overflow-x: hidden;
     -webkit-animation: showAll 0.8s;
 }
