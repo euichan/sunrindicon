@@ -53,19 +53,12 @@ text-align: center;
 }
 #player_InnerBox {
     position: relative;
-    width: 853px;
+    width: 860px;
     height: 1200px;
     margin: auto;
     color: #53585F;
     font-size: 1.6em;
-    font-family: 'AppleSDGothicNeo-UltraLight', sans-serif;
     line-height: 1.5em;
-    z-index: -10;
-    background-color: #fff;
-    padding: 50px;
-    top: 50px;
-    left: -20px;
-    box-shadow: 0px 0px 10px 1px #bcbcbc;
 }
 
 .company_logo {
