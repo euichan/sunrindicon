@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="../css/main.css">
         <link rel="stylesheet" href="../css/styles.css">
         <meta charset="UTF-8" http-equiv="Content-Type" content="text/html">
-        <title>마음을 울리는 광고 - 감성</title>
+        <title>마음을 울리는 광고</title>
 
         <style>
             .JiSlider
@@ -21,7 +21,7 @@
         </style>
 
     </head>
-    <body>
+    <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
         <div id="main">
 
             <!-- 로그인 부분 시작 -->
@@ -41,7 +41,7 @@
 
                         <br><br><br>
 
-                        <a href="signup2.html"><div id="signup">SIGN UP</div></a>
+                        <a href="signup.html"><div id="signup">SIGN UP</div></a>
 
                     </form>
 
@@ -55,13 +55,13 @@
             <!-- 좌측 탭 매뉴 시작 -->
 
             <div id="nav">
-                <div id="logo">
-                    <a href="main.html">
+                <a href="main.html">
+                    <div id="logo">
                         마음을<br>
                         울리는<br>
                         광고
-                    </a>
-                </div>
+                    </div>
+                </a>
                 <h6>당신을 응원하는 30초의 힘</h6>
 
                 <div id="navcat">
@@ -107,6 +107,7 @@
                 </div>
                 <div id="leadlogin" OnClick="login()">로그인
                 </div>
+                <footer id="footer">Copyrightⓒ 2014 aD$Moved. All rights reserved.</footer>
             </div>
             <!-- 좌측 탭 매뉴 끝 -->
 
@@ -145,7 +146,7 @@
                                 <a href="main.html"><img src="../img/banner2.png"></a>
                             </li>
                             <li>
-                                <a href="main.html"><img src="../img/banner3.png"></a>
+                                <a href="mystory.html"><img src="../img/banner3.png"></a>
                             </li>
                             <li>
                                 <a href="player.html"><img src="../img/banner4.png"></a>
@@ -159,7 +160,8 @@
                     </script>
 
                     <div id="contents">
-                        <div id="main_customize">맞춤 광고
+                        <div id="main_customize">
+                            <div id="new_text">맞춤 광고</div>
                             <div id="LargeUcc">
                                 큰 동영상
                             </div>
@@ -174,7 +176,8 @@
                             <div id="smallUcc_ex3">동영상3 설명입니다.</div>
                         </div>
 
-                        <div id="main_new"> <p>최신광고</p>
+                        <div id="main_new">
+                            <div id="new_text">최신광고</div>
                             <div class="Ucc">최신광고1</div>
                             <div class="Ucc">최신광고2</div>
                             <div class="Ucc">최신광고3</div>
@@ -182,7 +185,8 @@
                             <div class="Ucc">최신광고5</div>
                         </div>
 
-                        <div id="main_recent"> <p>최근 인기 광고</p>
+                        <div id="main_recent">
+                            <div id="new_text">최근 인기 광고</div>
                             <div class="Ucc">인기광고1</div>
                             <div class="Ucc">인기광고2</div>
                             <div class="Ucc">인기광고3</div>
@@ -190,7 +194,8 @@
                             <div class="Ucc">인기광고5</div>
                         </div>
 
-                        <div id="main_best"> <p>베스트 사연</p>
+                        <div id="main_best">
+                            <div id="new_text">베스트 사연</div>
                             <div class="Ucc">베스트광고1</div>
                             <div class="Ucc">베스트광고2</div>
                             <div class="Ucc">베스트광고3</div>
@@ -198,16 +203,7 @@
                             <div class="Ucc">베스트광고5</div>
                         </div>
                     </div>
-
-                    <!-- <div id="main_search">
-<div id="main_text">Smart Search</div>
-<img id="main_search_img" src="../img/search_icon.png">
-</div> -->
-
                 </div>
-            </div>
-
-            <div id="main_box2">
             </div>
 
         </div>
@@ -216,5 +212,4 @@
         <script src="../js/JiSlider-0.4.js"></script>
         <script type="application/javascript" src="../js/main.js"></script>
     </body>
-    <footer id="footer">Copyrightⓒ 2014 aD$Moved. All rights reserved.</footer>
 </html>

@@ -7,9 +7,7 @@
 body{
     table-layout: fixed;
     font-family: 'AppleSDGothicNeo-UltraLight', sans-serif;
-    background-size: cover;
-    background-attachment: fixed;
-    background-color: #d8d9dc;
+    background-color: #dddddd;
     overflow-y: hidden;
 }
 
@@ -17,7 +15,7 @@ body{
     position: relative;
     text-align: center;
     top: 150px;
-    color: #536475;
+    color: #3D7182;
     font-size: 2.3em;
 }
 
@@ -34,10 +32,17 @@ body{
     width: 100%;
     height: 50px;
 }
+
 #sighnup_next {
     position: relative;
     float: right;
     margin-right: 100px;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+}
+
+#sighnup_next:hover {
+    -webkit-transform: scale(1.2);
 }
 
 #signup_img2 {
@@ -48,7 +53,7 @@ body{
 
 #signup_text2 {
     position: relative;
-    color: #536475;
+    color: #3D7182;
     font-size: 2.5em;
     top: 150px;
     left: 60%;
