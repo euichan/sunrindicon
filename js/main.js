@@ -9,21 +9,7 @@ function login(event)
     b.style.left="223px";
     c.style.left="222px";
     d.style.left="-58px";
-    e.style.left="484px";
-}
-
-function login_back(event)
-{
-    var a = document.getElementById("main");
-    var b = document.getElementById("footer");
-    var c = document.getElementById("nav");
-    var d = document.getElementById("nav_login");
-    var e = document.getElementById("main_box");
-    a.style.left="0px";
-    b.style.left="1px";
-    c.style.left="0px";
-    d.style.left="-280px";
-    e.style.left="262px";
+    e.style.left="443px";
 }
 
 function main(event)
@@ -37,7 +23,7 @@ function main(event)
     b.style.left="1px";
     c.style.left="0px";
     d.style.left="-280px";
-    e.style.left="262px";
+    e.style.left="220px";
 }
 
 function login_hover(event)
