@@ -50,3 +50,9 @@ body {
     color: #53585F;
     border-bottom: solid 2px #3D7182;
 }
+
+#tab_icon {
+    position: relative;
+    width: 32.5px;
+    top: 12.5px;
+}
