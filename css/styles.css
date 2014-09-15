@@ -42,7 +42,7 @@ body {
     color: #53585F;
 }
 
-#listName {
+.listName {
     position: relative;
     top: 0px;
     margin-left: 30px;
@@ -55,4 +55,8 @@ body {
     position: relative;
     width: 32.5px;
     top: 12.5px;
+}
+
+.Highlight{
+    color: rgb(83,88,95);
 }
