@@ -6,11 +6,6 @@ src: local('AppleSDGothicNeo-UltraLight'), url('../font/AppleSDGothicNeo-UltraLi
 }
 
 @font-face {
-font-family: 'AppleSDGothicNeo-Medium';
-src: local('AppleSDGothicNeo-Medium'), url('../font/AppleSDGothicNeo-Medium.otf') format('opentype');
-}
-
-@font-face {
 font-family: 'AppleSDGothicNeo-Thin';
 src: local('AppleSDGothicNeo-Thin'), url('../font/AppleSDGothicNeo-Thin.otf') format('opentype');
 }

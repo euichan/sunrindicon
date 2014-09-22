@@ -64,9 +64,6 @@ text-align: center;
 
 .company_logo {
 width: 60px;
-top: 50%;
-margin-top: 13px;
-
 }
 
 .profile {
@@ -83,7 +80,6 @@ width: 60px;
 height: 60px;
 top: 45px;
 float: left;
-background-color: #fff;
 }
 .play_icon {
     width: 20px;
@@ -141,12 +137,16 @@ background-color: #fff;
 }
 
 #facebook_icon {
-    width: 25px;
+    position: relative;
+    width: 30px;
+    top: -2.5px;
     vertical-align: middle;
 }
 
 #heart_icon {
+    position: relative;
     width: 30px;
+    top: -2.5px;
     vertical-align: middle;
 }
 
@@ -182,7 +182,9 @@ background-color: #fff;
     -webkit-transition: 0.25s;
 }
 #share_icon {
-    height: 25px;
+    position: relative;
+    width: 30px;
+    top: -2.5px;
     vertical-align: middle;
 }
 

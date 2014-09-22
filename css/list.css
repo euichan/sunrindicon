@@ -82,12 +82,20 @@
     position: relative;
     top: 50px;
     width: 100%;
+<<<<<<< HEAD
     margin-bottom: 50px;
+=======
+    border-top: solid 1px #dddddd;
+>>>>>>> FETCH_HEAD
 }
 
 .uccListBox {
     height: 150px;
+<<<<<<< HEAD
     border-bottom: solid 1px black;
+=======
+    border-bottom: solid 1px #dddddd;
+>>>>>>> FETCH_HEAD
 }
 
 .uccBox {
