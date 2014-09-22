@@ -287,3 +287,15 @@ border-bottom: 1px solid #53585F;
 
 
 
+
+.uccListBox {
+    height: 150px;
+    border-bottom: solid 1px black;
+}
+
+.uccBox {
+    position: relative;
+    top: 20px;
+    left: 5%;
+    width: 230px;
+}

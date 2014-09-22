@@ -53,3 +53,4 @@ function comment_focus_out(event)
     document.getElementById("comment_text").style.opacity="1";
     document.getElementById("comment_input").style.opacity="0";
 }
+
