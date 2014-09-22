@@ -77,3 +77,22 @@
 }
 
 
+
+#Ranklist {
+    position: relative;
+    top: 50px;
+    width: 100%;
+    border-top: solid 1px #dddddd;
+}
+
+.uccListBox {
+    height: 150px;
+    border-bottom: solid 1px #dddddd;
+}
+
+.uccBox {
+    position: relative;
+    top: 5%;
+    left: 5%;
+    width: 230px;
+}

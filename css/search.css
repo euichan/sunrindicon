@@ -45,35 +45,11 @@
 }
 
 
-.ucc {
-    position: relative;
-    width: 23%;
-    height: 150px;
-    margin-right: 1.5%;
-    margin-bottom: 20px;
-    border: solid 1px #53585F;
-    display: inline-block;
-}
 
-.ucc2 {
-    position: relative;
-    width: 22%;
-    height: 150px;
-    margin-right: 1.5%;
-    margin-bottom: 20px;
-    border: solid 1px #53585F;
-    display: inline-block;
-}
 
-.ucc_ex {
-    position: relative;
-    width: 18%;
-    height: 150px;
-    margin-right: 3%;
-    margin-bottom: 20px;
-    border: solid 1px #53585F;
-    display: inline-block;
-}
+
+
+
 
 .keyword {
     font-weight: bold;
@@ -101,4 +77,11 @@
 
 #Searchtab {
     background-color: rgb(240,240,240);
+}
+
+#Ranklist {
+    position: relative;
+    top: 50px;
+    width: 100%;
+    margin-bottom: 50px;
 }

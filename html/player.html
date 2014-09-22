@@ -153,7 +153,7 @@
                             </div>
 
                             <div class="profile_box">
-                                <div class="profile_img"><img class="company_logo" src="../img/Doosan_Logo.jpg"></div>
+                                <div class="profile_img"><img class="company_logo" src="../img/Doosan_Logo.png"></div>
                                 <text1>두산그룹 (2012)</text1>
                             </div>
 
@@ -187,7 +187,9 @@
                                 <img id="comment_profile_img" src="../img/profile_white.png">
                                 <input name="update_btn" id="update_btn" type="submit" value=""><img id="update_img" src="../img/update_white.png">
                                 <div id="comment_text">지금, 당신의 의견을 남겨주세요</div>
-                                <input name="comment" id="comment_input" type="text" onmouseover="comment_on()" onmouseout="comment_out()" onfocus="comment_focus()" onfocusout="comment_focus_out()">
+                                <form onsubmit="return submit_comment()" auto>
+                                    <input name="comment" id="comment_input" type="text" onmouseover="comment_on()" onmouseout="comment_out()" onfocus="comment_focus()" onfocusout="comment_focus_out()">
+                                </form>
                                 <div id="comment_list">
                                     이곳에 덧글 목록이 표시됩니다.
                                 </div>
