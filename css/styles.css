@@ -37,7 +37,11 @@ body {
     color: #53585F;
 }
 
+<<<<<<< HEAD
 .listName {
+=======
+#listName {
+>>>>>>> Seohyung
     position: relative;
     top: 0px;
     margin-left: 30px;
@@ -51,7 +55,10 @@ body {
     width: 32.5px;
     top: 12.5px;
 }
+<<<<<<< HEAD
 
 .Highlight{
     color: rgb(83,88,95);
 }
+=======
+>>>>>>> Seohyung

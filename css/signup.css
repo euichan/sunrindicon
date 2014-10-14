@@ -8,7 +8,11 @@ body{
     table-layout: fixed;
     font-family: 'AppleSDGothicNeo-UltraLight', sans-serif;
     background-color: #dddddd;
+<<<<<<< HEAD
     overflow: hidden;
+=======
+    overflow-y: hidden;
+>>>>>>> Seohyung
 }
 
 #signup_text1 {
