@@ -1,0 +1,101 @@
+#mystory_contents_box {
+    position: relative;
+    width: 90%;
+    height: 1200px;
+    margin: auto;
+    color: #53585F;
+    font-size: 1.6em;
+    font-family: 'AppleSDGothicNeo-UltraLight', sans-serif;
+    line-height: 1.5em;
+    background-color: #fff;
+    top: 60px;
+    left: 50%;
+    margin-left: -45%;
+    box-shadow: 0px 0px 10px 1px #bcbcbc;
+}
+
+#mystory_main {
+    position: relative;
+    width: -webkit-calc(100% - 262px);
+    left: 262px;
+    z-index: -2;
+}
+
+#mystory_title {
+        position: relative;
+    font-size: 2em;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 5px;
+    color: #2d2d2d;
+}
+
+@media screen and (min-width: 1520px){
+    #mystory_contents_box{
+        width: 1200px;
+        height: 1300px;
+        left: 50%;
+        margin-left: -600px;
+    }
+
+    #mystory_box {
+        padding-left: 5px;
+    }
+}
+
+@media screen and (max-width: 1520px) and (min-width: 1180px){
+    #mystory_contents_box{
+        width: 900px;
+        height: 1550px;
+        left: 50%;
+        margin-left: -450px;
+    }
+
+    #mystory_box {
+        padding-left: 5px;
+    }
+}
+
+
+@media screen and (max-width: 1180px) and (min-width: 955px){
+    #mystory_contents_box{
+        width: 690px;
+        height: 2150px;
+        left: 50%;
+        margin-left: -345px;
+    }
+
+    #mystory_box {
+        padding-left: 45px;
+    }
+}
+
+@media screen and (max-width: 955px){
+    #mystory_contents_box{
+
+    }
+}
+
+#mystory_box {
+    position: relative;
+    width: 95%;
+    height: 100%;
+    left: 50%;
+    margin-left: -47.5%;
+    top: 30px;
+}
+
+#mystory_box1 {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border: 1px solid gray;
+    float: left;
+    margin: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#Mystorytab {
+    background-color: rgb(240,240,240);
+}

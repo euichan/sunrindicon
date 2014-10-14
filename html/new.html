@@ -1,0 +1,200 @@
+<!doctype HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/list.css">
+        <link rel="stylesheet" href="../css/new.css">
+        <meta charset="UTF-8" http-equiv="Content-Type" content="text/html">
+        <title>마음을 울리는 광고</title>
+
+        <style>
+            .JiSlider
+            {
+                width: 90%;
+                height: 412px;
+                left: 50%;
+                margin-left: -45%;
+                margin-top: -50px
+            }
+        </style>
+
+    </head>
+    <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+        <div id="main">
+
+            <!-- 로그인 부분 시작 -->
+            <div id="nav_login" mouseover="login_hover()">
+
+                <!-- 실질적인 로그인 부분 시작 -->
+                <div id="login_box">
+                    <form action="" method="post">
+                        <input name="username" id="id" type="text" placeholder="ID">
+                        <br><br>
+
+                        <input name="password" id="password" type="password" placeholder="PASSWORD" reset>
+
+                        <br><br><br>
+
+                        <input id="login_btn" type="submit" value="LOGIN">
+
+                        <br><br><br>
+
+                        <a href="signup.html"><div id="signup">SIGN UP</div></a>
+
+                    </form>
+
+                    <!-- 실질적인 로그인 부분 끝 -->
+
+                </div>
+            </div>
+
+            <!-- 로그인 부분 끝 -->
+
+            <!-- 좌측 탭 매뉴 시작 -->
+
+            <div id="nav">
+                <a href="main.html">
+                    <div id="logo">
+                        마음을<br>
+                        울리는<br>
+                        광고
+                    </div>
+                </a>
+                <h6>당신을 응원하는 30초의 힘</h6>
+
+                <div id="navcat">
+                    <a href="new.html">
+                        <div id="Newtab" class="navbox" OnClick="Newtab">
+                            <img src="../img/new_H.png" id="tab_icon"/>
+                            <h1 class="Highlight">10월 최신 광고</h1>
+                        </div>
+                    </a>
+                    <a href="recent.html">
+                        <div id="Recenttab" class="navbox">
+                            <img src="../img/recent.png" id="tab_icon">
+                            <h1>최근 인기있는 광고</h1>
+                        </div>
+                    </a>
+                    <a href="best.html">
+                        <div id="Besttab" class="navbox">
+                            <img src="../img/best.png" id="tab_icon">
+                            <h1>역대 베스트 광고</h1>
+                        </div>
+                    </a>
+                    <a href="mystory.html">
+                        <div id="Mystorytab" class="navbox">
+                            <img src="../img/story.png" id="tab_icon">
+                            <h1>나의 사연</h1>
+                        </div>
+                    </a>
+                    <a href="vote.html">
+                        <div id="Votetab" class="navbox">
+                            <img src="../img/vote.png" id="tab_icon">
+                            <h1>광고 투표하기</h1>
+                        </div>
+                    </a>
+                    <a href="search.html">
+                        <div id="Searchtab" class="navbox">
+                            <img src="../img/nav_search.png" id="tab_icon">
+                            <h1>Smart Search</h1>
+                        </div>
+                    </a>
+                </div>
+                <div id="leadlogin" OnClick="login()">로그인
+                </div>
+            </div>
+            <!-- 좌측 탭 매뉴 끝 -->
+
+            <!-- 메인 화면 시작 -->
+            <div id="main_box" OnClick="main()">
+
+                <div id="top_navbar"></div>
+
+                <!-- 검색창 시작 -->
+                <div id="search" onmouseover="search()">
+                    <div id="search_icon">
+                        <img src="../img/search.png" width="30px">
+                        <img id="searchange" src="../img/search_icon.png" width="30px">
+                    </div>
+
+                    <search>
+                        <div id="search_div">
+                        </div>
+                        <div id="search_left"></div>
+                        <div id="search_right"></div>
+                    </search>
+                    <form onsubmit="return submit_search()" auto>
+                        <input name="search" id="search_box" type="text" onfocusout="Search_Over()" >
+                    </form>
+                </div>
+                <!-- 검색창 종료 -->
+
+                <div id="main_contents_box">
+                    <div id="clickedMenu">10월 최신 광고</div>
+                    <div class="listName">당신을 기다리는 새로운 광고.</div>
+                    <div id="highRank">
+                        <div class="highRank_uccList">
+
+                            <a href="player.html">
+                                <img class="ad" onclick='
+                                                         document.getElementById("myvideo").src = "http://www.youtube.com/embed/Panrb2M9ulU?rel=0";' src="../ad/ad1.png">
+                            </a>
+
+                        </div>
+                        <div class="highRank_uccList">
+                            <img class="ad" src="../ad/ad2.png">
+                        </div>
+                        <div class="highRank_uccList">
+                            <img class="ad" src="../ad/ad3.png">
+                        </div>
+                    </div>
+                    <div class="listName"></div>
+
+                    <div id="Ranklist">
+                        <div class="uccListBox">
+                            <div class="uccBox">
+                                <img class="ad" src="../ad/ad5.png">
+                            </div>
+                        </div>
+                        <div class="uccListBox">
+                            <div class="uccBox">
+                                <img class="ad" src="../ad/ad7.png">
+                            </div>
+                        </div>
+                        <div class="uccListBox">
+                            <div class="uccBox">
+                                <img class="ad" src="../ad/ad3.png">
+                            </div>
+                        </div>
+                        <div class="uccListBox">
+                            <div class="uccBox">
+                                <img class="ad" src="../ad/ad8.png">
+                            </div>
+                        </div>
+                        <div class="uccListBox">
+                            <div class="uccBox">
+                                <img class="ad" src="../ad/ad4.png">
+                            </div>
+                        </div>
+                        <div class="uccListBox">
+                            <div class="uccBox">
+                                <img class="ad" src="../ad/ad6.png">
+                            </div>
+                        </div>
+                        <div class="uccListBox">
+                            <div class="uccBox">
+                                <img class="ad" src="../ad/ad9.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="../js/imgslider.js"></script>
+        <script src="../js/jslider.js"></script>
+        <script src="../js/JiSlider-0.4.js"></script>
+        <script src="../js/main.js"></script>
+    </body>
+    <footer id="footer">Copyrightⓒ 2014 aD$Moved. All rights reserved.</footer>
+</html>

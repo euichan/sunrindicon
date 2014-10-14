@@ -1,0 +1,85 @@
+#vote_box {
+    position: fixed;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-top: 0px;
+    width: -webkit-calc(100% - 262px);
+    height: 100%;
+    left: 262px;
+    top: 0px;
+    background-color: #fff;
+    -webkit-transition: 0.5s cubic-bezier(0.3, 1.5, 0.1, 1.1);
+    min-width: 800px;
+    z-index: -1000;
+}
+
+#Votetab {
+    background-color: rgb(240,240,240);
+}
+
+#vote_contents_box {
+    position: relative;
+    width: 80%;
+    height: 900px;
+    color: #53585F;
+    font-size: 1.6em;
+    font-family: 'AppleSDGothicNeo-UltraLight', sans-serif;
+    line-height: 1.5em;
+    z-index: -10;
+    background-color: #fff;
+    top: 50px;
+    left: 50%;
+    margin-left: -40%;
+    box-shadow: 0px 0px 10px 1px #bcbcbc;
+}
+
+
+
+
+
+
+
+#votecat {
+    position: relative;
+    top: 30px;
+    left: 5%;
+    height: 50px;
+    color: #53585F;
+    font-size: 20px;
+}
+
+#voteucc {
+    position: relative;
+    left: 4.8%;
+    top: 30px;
+    width: 28%;
+    height: 200px;
+    margin-bottom: 20px;
+    margin-right: 2%;
+    cursor: pointer;
+    border: solid 1px gray;
+    display: inline-block;
+}
+
+
+
+
+
+#votebutton {
+    position: relative;
+    top: 20px;
+}
+
+#votebtn {
+    position: relative;
+    width: 100px;
+    height: 70px;
+    left: 50%;
+    margin-top: 45px;
+    margin-left: -50px;
+    font-size: 1em;
+    font-family: 'AppleSDGothicNeo-UltraLight', sans-serif;
+    border: solid 5px rgb(92,111,129);
+    background-color: transparent;
+    cursor: pointer;
+}
