@@ -301,3 +301,18 @@ border-bottom: 1px solid #53585F;
     left: 5%;
     width: 230px;
 }
+
+#player_contents_box {
+    position: absolute;
+    padding-bottom: 50px;
+    width: 95%;
+    height: auto;
+    max-width: 1200px;
+    min-width: 880px;
+    z-index: -2;
+    background-color: #fff;
+    top: 70px;
+    left: 50%;
+    margin-left: -47.5%;
+    box-shadow: 0px 0px 10px 1px #bcbcbc;
+}

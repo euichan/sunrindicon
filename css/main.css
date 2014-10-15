@@ -10,12 +10,10 @@ body{
 }
 
 #nav {
-    font-family: 'AppleSDGothicNeo-UltraLight', sans-serif;
     width: 220px;
     height: 100%;
     left: 0%;
     position: fixed;
-    overflow-y: scroll;
     border-left: solid 1px white;
     border-right: solid 2px #f1f1f1;
     background-color: rgba(0, 0, 0, 0.3);

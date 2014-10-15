@@ -5,10 +5,10 @@
 }
 
 body{
-    table-layout: fixed;
-    font-family: 'AppleSDGothicNeo-UltraLight', sans-serif;
-    background-color: #dddddd;
-    overflow: hidden;
+    font-family: 'AppleSDGothicNeo-UltraLight';
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-image: -webkit-radial-gradient(center top, circle farthest-corner, #FFFFFF 0%, #D8DFE9 100%);
 }
 
 #signup_text1 {
@@ -33,7 +33,7 @@ body{
     height: 50px;
 }
 
-#sighnup_next {
+#signup_next {
     position: relative;
     float: right;
     margin-right: 100px;
@@ -41,7 +41,7 @@ body{
     -webkit-transition: 0.3s;
 }
 
-#sighnup_next:hover {
+#signup_next:hover {
     -webkit-transform: scale(1.2);
 }
 
@@ -60,20 +60,18 @@ body{
 }
 
 #signup_box1 {
-    position: relative;
+    position: absolute;
     width: 100%;
-    height: 1000px;
+    height: 100%;
     left: 0%;
-    -webkit-transition: 0.5s;
 }
 
 #signup_box2 {
-    position: relative;
+    position: absolute;
     width: 100%;
-    height: 1000px;
+    height: 100%;
     left: 100%;
-    top: -1000px;
-    -webkit-transition: 0.5s;
+    top: 0px;
 }
 
 #signup_contents2 {
@@ -82,4 +80,68 @@ body{
     color: gray;
     top: 250px;
     left: 60%;
+}
+
+#signup_box3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 200%;
+    top: 0px;
+    -webkit-transition: 0.5s;
+}
+
+#signup_text3 {
+    position: relative;
+    color: #3D7182;
+    font-size: 2.5em;
+    top: 150px;
+    left: 60%;
+}
+
+#signup_img3 {
+    position: relative;
+    top: -50px;
+    left: 0%;
+}
+
+#signup_contents3 {
+    position: absolute;
+    font-size: 1.5em;
+    color: gray;
+    top: 250px;
+    left: 60%;
+}
+
+#signup_box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left:  0%;
+    -webkit-transition: 0.5s;
+}
+
+#signup_box4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 300%;
+    top: 0px;
+    -webkit-transition: 0.5s;
+}
+
+#signup_box1_contents {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    top: 50%;
+    margin-top: -400px;
+}
+
+#signup_box2_contents {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    top: 50%;
+    margin-top: -350px;
 }
