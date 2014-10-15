@@ -9,11 +9,7 @@ function login(event)
     b.style.left="223px";
     c.style.left="222px";
     d.style.left="-58px";
-<<<<<<< HEAD
     e.style.left="443px";
-=======
-    e.style.left="448px";
->>>>>>> Seohyung
 }
 
 function main(event)
@@ -27,11 +23,7 @@ function main(event)
     b.style.left="1px";
     c.style.left="0px";
     d.style.left="-280px";
-<<<<<<< HEAD
     e.style.left="220px";
-=======
-    e.style.left="225px";
->>>>>>> Seohyung
 }
 
 function login_hover(event)
