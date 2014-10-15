@@ -11,8 +11,8 @@
 	$pass = sha1($_POST['pass']);a
 	
 
-	$query = "INSERT INTO board 
-	(id, name, email, pass, title, content,	wdate, ip, view)
+	$query = "INSERT INTO board
+    (id, name, email, pass, title, content,	wdate, ip, view)
 	VALUES ('', '$name', '$email', '$pass', '$title', 
 	'$content',	now(), '{$_SERVER['REMOTE_ADDR']}', 0)";
 	$result=$mysqli->query($query);

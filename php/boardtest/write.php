@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>초 허접 게시판</title>
+<title>dicon board</title>
 <style>
 <!--
 td { font-size : 9pt; }
