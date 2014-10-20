@@ -33,6 +33,7 @@ $current_page = ceil(($no+1)/$page_size);
 <!DOCTYPE html>
 <html lang="ko">
 <head>
+    <meta charset="UTF-8">
 <title>일반 게시판</title>
 <style>
 <!--

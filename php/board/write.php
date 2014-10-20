@@ -1,6 +1,7 @@
 <html>
 <head>
 <title>일반 게시판</title>
+    <meta charset="UTF-8">
 <style>
 <!--
 td {font-size : 9pt; color:#333333}
